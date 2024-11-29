@@ -1,5 +1,3 @@
-
-
 import java.io.IOException;
 
 public class TaskCLI {
@@ -15,18 +13,32 @@ public class TaskCLI {
         switch(args[0]) {
             case "add" :
                 handleAddCommand(args);
+                break;
+
             case "update" :
                 handleUpdateCommand(args);
+                break;
+
             case "delete" :
                 handleDeleteCommand(args);
+                break;
+
             case "mark-in-progress" :
                 handleMarkAsCommand(args, TaskStatus.IN_PROGRESS);
+                break;
+
             case "mark-done" :
                 handleMarkAsCommand(args, TaskStatus.DONE);
+                break;
+
             case "list" :
                 handleListCommand(args);
+                break;
+
             case "help" :
                 handleHelpCommand();
+                break;
+                
             default :
                 System.out.println("invalid command\nuse 'help' for a list of commands");
         }
