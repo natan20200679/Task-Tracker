@@ -203,11 +203,11 @@ public class TaskCLI {
         System.out.println("    help                        - Display this help message");
         System.out.println();
         System.out.println("Example usage:");
-        System.out.println("    java TaskCli add \"Buy groceries\"");
-        System.out.println("    java TaskCli update 1 \"Buy groceries and cook dinner\"");
-        System.out.println("    java TaskCli delete 1");
-        System.out.println("    java TaskCli mark-in-progress 1");
-        System.out.println("    java TaskCli list done");
+        System.out.println("    java TaskCLI add \"Buy groceries\"");
+        System.out.println("    java TaskCLI update 1 \"Buy groceries and cook dinner\"");
+        System.out.println("    java TaskCLI delete 1");
+        System.out.println("    java TaskCLI mark-in-progress 1");
+        System.out.println("    java TaskCLI list done");
         System.out.println("-----------------------------------------------------------------------------------");
     }
 }
